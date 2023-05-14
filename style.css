@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(167, 255, 255);
+}
+
+
+.container {
+    margin-top: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+input[type="text"]  {
+    padding-left: 0.5rem;
+    height: 40px;
+    width: 500px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#submit {
+    height: 37px;
+    width: 75px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+li {
+    background-color: #fff;
+    padding: 1.0rem 1.0rem;
+    font-size: 25px;
+    width: 575px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li div {
+    display: flex;
+    align-items: center; 
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+
+span {
+    padding-left: 10px;
+}
+
+i {
+    font-size: 10px;
+    color: rgb(109, 109, 109);
+}
+
+i:hover {
+    filter: brightness(50%);
+}
+
+#delete {
+    background-color: rgb(221, 21, 21);
+    color: white;
+    font-weight: bolder;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+}
+
+#delete:hover {
+    filter: brightness(150%);
+}
+
+
